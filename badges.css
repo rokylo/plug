@@ -1,6 +1,6 @@
 // CUSTOM BADGES //
 
-//* GENERAL *//
+// GENERAL
 #user-rollover .info .badge-box,
 #chat-messages .badge-box {
     background: none !important;
@@ -9,13 +9,13 @@
     background-position: center center !important;
 }
 
-//* keinwein *//
+* keinwein *
 #user-rollover.id-22029396 .badge-box i.bdg,
 .id-22029396 .badge-box i.bdg {
     background-image: url("https://i.imgur.com/EMAmBs4.gif?1");
 }
 
-//* Lukse:P *//
+* Lukse:P *
 #user-rollover.id-5485803 .badge-box i.bdg,
 .id-5485803 .badge-box i.bdg {
     background-image: url("https://i.imgur.com/sDg8fnC.gif?1");
