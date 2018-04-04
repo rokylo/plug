@@ -1,0 +1,41 @@
+/* VIP text in rollover */
+
+/* frigost */
+#user-rollover.id-5485803 .info .role span;
+
+/* VIP Icon */
+
+/* frigost */
+.id-5485803 .msg .from i.icon-chat-dj,
+#waitlist .list .user[data-uid="5485803"] .meta.is-staff .name .icon-chat-dj,
+#user-rollover.id-5485803 .info .role i.icon-chat-dj,
+#user-lists .list.room .user.id-5485803 .icon-chat-dj;
+
+/* VIP Icon User Rollover Fix */
+
+/* frigost */
+#user-rollover.id-5485803 .info .role i.icon-chat-dj;
+
+/* VIP Color */
+
+/* frigost */
+.id-5485803 .msg .from.dj .un,
+#waitlist .list .user[data-uid="5485803"] .meta.is-staff .name .icon-chat-dj + span,
+#user-rollover.id-5485803 .info .role span,
+#user-rollover.id-5485803 .meta .username,
+#user-lists .list.room .user.id-5485803 .name;
+
+/* VIP Border */
+
+/* frigost */
+#chat .cm.message.id-5485803,
+#chat .cm.emote.id-5485803;
+
+/* frigost */
+#chat .cm.message.id-5485803:hover,
+#chat .cm.emote.id-5485803:hover;
+
+/* VIP Inline */
+
+/* frigost */
+.emote.id-5485803 .text;
