@@ -1,22 +1,130 @@
-// CUSTOM BADGES
+/* Custom Badges */
 
-// GENERAL
+/* General */
 #user-rollover .info .badge-box,
 #chat-messages .badge-box {
     background: none !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
-    }
-    
-    * keinwein *
-    #user-rollover.id-22029396 .badge-box i.bdg,
-.id-22029396 .badge-box i.bdg {
-    background-image: url("https://i.imgur.com/EMAmBs4.gif?1");
-    }
+}
 
-    * Lukse:P *
-    #user-rollover.id-5485803 .badge-box i.bdg,
+/* keinwein */
+#user-rollover.id-22029396 .badge-box i.bdg,
+.id-22029396 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/ash.jpg");
+}
+
+/* Lukse:P */
+#user-rollover.id-5485803 .badge-box i.bdg,
 .id-5485803 .badge-box i.bdg {
-    background-image: url("https://i.imgur.com/JoqnzNM.gif?1");
-    }
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/burgerisgooo.gif");
+}
+
+/* Ene */
+#user-rollover.id-26698397 .badge-box i.bdg,
+.id-26698397 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/ene.png");
+}
+
+/* iHook */
+#user-rollover.id-26603056 .badge-box i.bdg,
+.id-26603056 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/ihook.gif");
+}
+
+/* Imanolix */
+#user-rollover.id-5220843 .badge-box i.bdg,
+.id-5220843 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/imanolix.png");
+}
+
+/* Jexi */
+#user-rollover.id-4110949 .badge-box i.bdg,
+.id-4110949 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/jexi.gif");
+}
+
+/* Kaspae */
+#user-rollover.id-26613571 .badge-box i.bdg,
+.id-26613571 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/kaspae.gif");
+}
+
+/* killer0wave */
+#user-rollover.id-27677457 .badge-box i.bdg,
+.id-27677457 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/killer0wave.gif");
+}
+
+/* Laquett */
+#user-rollover.id-4093788 .badge-box i.bdg,
+.id-4093788 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/laquett.png");
+}
+
+/* Leaf */
+#user-rollover.id-4178820 .badge-box i.bdg,
+.id-4178820 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/leaf.gif");
+}
+
+/* Mrcl- */
+#user-rollover.id-13585808 .badge-box i.bdg,
+.id-13585808 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/mrcl.gif");
+}
+
+/* NB3 */
+#user-rollover.id-6363341 .badge-box i.bdg,
+.id-6363341 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/nb3.png");
+}
+
+/* Pie */
+#user-rollover.id-26073729 .badge-box i.bdg,
+.id-26073729 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/pie.jpg");
+}
+
+/* PurpleOnix */
+#user-rollover.id-26600442 .badge-box i.bdg,
+.id-26600442 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/apurpleonix.jpg");
+}
+
+/* Puukjeens */
+#user-rollover.id-4734845 .badge-box i.bdg,
+.id-4734845 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/puukjeens.gif");
+}
+
+/* Ragnax */
+#user-rollover.id-26639341 .badge-box i.bdg,
+.id-26639341 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/ragnax.png");
+}
+
+/* Teddy */
+#user-rollover.id-3788262 .badge-box i.bdg,
+.id-3788262 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/Teddy.gif");
+}
+
+/* S4nari */
+#user-rollover.id-3828485 .badge-box i.bdg,
+.id-3828485 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/s4nari.png");
+}
+
+/* Soriosh */
+#user-rollover.id-26583171 .badge-box i.bdg,
+.id-26583171 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/soriosh.jpg");
+}
+
+/* Zizter/Sister */
+#user-rollover.id-26608465 .badge-box i.bdg,
+.id-26608465 .badge-box i.bdg {
+    background-image: url("https://nightbloo.github.io/plug/custom-badges/Zizter.gif");
+}
