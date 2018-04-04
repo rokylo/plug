@@ -1,5 +1,48 @@
-// CHAT
+/***all credits go to wlff***/
 
+/*ikonos*/
+.icon.icon-site-logo {
+    background: url("https://dl.dropboxusercontent.com/s/c9p9vvywh8ab71c/plug.png") repeat scroll 0% 0% transparent !important;
+    background-position: -5px 0px;
+}
+.icon-room {
+   background: url("http://i.imgur.com/gUn8JdC.png") !important;
+   background-size: 30px 30px !important;
+}
+i.icon.icon-current-dj {
+    background-image: url("https://dl.dropboxusercontent.com/s/fzvi9h23qg069ex/music.png") !important; 
+    background-position: 1px 0px;
+}
+
+/*pakeisti badges*/
+i.bdg.bdg-admin-g.g {
+    background: url("https://dl.dropboxusercontent.com/s/vlzw1vcc86s7gfs/Admin.png") !important;
+}
+i.bdg.bdg-bt-g.g {
+    background: url("https://dl.dropboxusercontent.com/s/x8xbmulox98tp2k/B1.png") !important;
+}
+i.bdg.bdg-ea-g.g {
+    background: url("https://dl.dropboxusercontent.com/s/l81b7c4w86z9r5q/B2.png") !important;
+}
+i.bdg.bdg-og-g.g {
+    background: url("https://dl.dropboxusercontent.com/s/abzetqh5iyn0y7z/B3.png") !important;
+}
+i.bdg.bdg-ss-g.g {
+    background: url("https://dl.dropboxusercontent.com/s/gambmvehgv5xrr6/B4.png") !important;
+}
+/*badge Fixas*/
+i.bdg.large.bdg-admin-g.g,
+i.bdg.large.bdg-bt-g.g,
+i.bdg.large.bdg-ea-g.g,
+i.bdg.large.bdg-og-g.g,
+i.bdg.large.bdg-ss-g.g{
+    width: 30px;
+    height: 30px;
+	position: relative !important;
+    top: 55px !important;
+}
+
+/*chatas*/
 #chat {
     background-color: rgba(10, 10, 10, 0.75);
 }
@@ -52,9 +95,7 @@
         -o-transition:          all 0.3s ease;
         transition:             all 0.3s ease;
 }
-
-// LIST
-
+/*listas*/
 #user-lists .list .user:hover {
 background-color: rgba(0, 77, 255, 0.15);
 transform: translate(5px, -5px);
@@ -118,8 +159,7 @@ transition: 100ms linear 50ms;
     transition: 100ms linear 50ms
 }
 
-// TRANSPARENCY
-
+/*persvecemumas*/
 #toast-notifications .notification .right:hover {
    background: rgba(0, 0, 0, 0.35) !important;
 }
@@ -223,8 +263,446 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
     background: rgba(0, 0, 0, 0.68);
 }
 
-// ROUNDING
-
+/*roundingas/*/
 .dialog {
     border-radius: 20px;
+}
+
+/*useriai*/
+#user-rollover {
+    border-radius: 20px;
+}
+#user-rollover.self.chat .info {
+    border-radius: 0 0 20px 20px !important;
+}
+#user-rollover.self.can-skip.chat .info {
+    border-radius: 0 0 0 0 !important;
+}
+#user-rollover:not(.chat) .info {
+    border-radius: 0 0 20px 20px;
+}
+#user-rollover.expand:not(.chat) .info {
+    border-radius: 0 0 0px 0px;
+}
+#user-rollover.self .action.skip{
+    border-radius: 0 0 20px 20px;
+}
+
+/*useriai + rdj*/
+#user-rollover.can-friend .actions .action.friend{
+   border-radius: 0 0 20px 20px;
+}
+#user-rollover.can-mention .actions .action.mention{
+   border-radius: 0 0 20px 20px;
+}
+#user-rollover.can-mention.can-friend .actions .action.friend{
+   border-radius: 0 0 20px 0;
+}
+#user-rollover.can-mention.can-friend .actions .action.mention{
+   border-radius: 0 0 0 20px;
+}
+#user-rollover.can-mention.can-ignore .actions .action.mention{
+   border-radius: 0 0 0 20px;
+}
+#user-rollover.can-mention.can-ignore .actions .action.ignore{
+   border-radius: 0 0 20px 0;
+}
+/*bounceriai*/
+#user-rollover.is-staff.can-ban .actions .action.mod-ban,
+#user-rollover.is-staff.can-friend.can-ban .actions .action.mod-ban,
+#user-rollover.is-staff.can-mention.can-ignore.can-booth .actions .action.mod-dj{
+   border-radius: 0 0 20px 20px;
+}
+#user-rollover.is-none.can-mention.can-ignore.can-booth.can-ban .actions .action.mod-dj {
+   border-radius: 0 0 0 20px;
+}
+#user-rollover.is-none.can-mention.can-ignore.can-booth.can-ban .actions .action.mod-ban {
+   border-radius: 0 0 20px 0;
+}
+#user-rollover.is-staff.can-friend.can-ban .actions .action.friend,
+#user-rollover.is-staff.can-mention.can-ignore.can-booth .actions .action.ignore,
+#user-rollover.is-staff.can-mention.can-ignore.can-booth .actions .action.mention,
+#user-rollover.is-none.can-mention.can-ignore.can-booth.can-ban .actions .action.ignore,
+#user-rollover.is-none.can-mention.can-ignore.can-booth.can-ban .actions .action.mention {
+   border-radius: 0 0 0 0;
+}
+/*manageriai*/
+#user-rollover.is-staff.can-booth .actions .action.mod-dj {
+   border-radius: 0 0 20px 20px;
+}
+#user-rollover.is-staff.can-booth.can-staff.can-ban .actions .action.mod-dj,
+#user-rollover.is-staff.can-friend.can-staff.can-ban .actions .action.mod-staff {
+   border-radius: 0 0 0 20px;	
+}
+#user-rollover.is-staff.can-booth.can-staff.can-ban .actions .action.mod-ban,
+#user-rollover.is-staff.can-friend.can-staff.can-ban .actions .action.mod-ban {
+   border-radius: 0 0 20px 0;	
+}
+/*note: i couldn't add anything for Bas and Admins because i dont know what extra buttons they have */
+
+/*animatcijos + permatomumas*/
+#user-rollover {
+   background: rgba(0, 0, 0, 0.56) !important;
+}
+#user-rollover .info{
+    background: rgba(0, 0, 0, 0.18);
+}
+#user-rollover.expand.chat .arrow-down {
+   border-left: 8px solid rgba(0, 0, 0, 0.4) !important;
+}
+#user-rollover:not(.chat) .arrow-down {
+   border-top: 8px solid rgba(0, 0, 0, 0.4) !important;
+}
+#user-rollover .action.skip:hover{
+    -webkit-box-shadow:     inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    -moz-box-shadow:        inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    -o-box-shadow:          inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    box-shadow:             inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+}
+#user-rollover .actions .action:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+#user-rollover .actions .action.mod-staff:hover {
+    background: rgba(24, 0, 27, 0.4);
+}
+#user-rollover .actions .action.ignore:hover,
+#user-rollover .actions .action.mod-ban:hover,
+#user-rollover .actions .action.mod-mute:hover {
+    background: rgba(28, 0, 0, 0.4);
+}
+
+
+#user-rollover .actions .action.giftsub:hover{
+	background: rgba(68, 45, 0, 0.4);
+}
+#user-rollover .actions .action.giftsub:hover span {
+   text-shadow: 0 0 10px #E59900;
+}
+#user-rollover .actions .action{
+box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
+}
+
+#user-rollover.id-4412452 .thumb {
+    border-color: rgb(36, 175, 130) !important;
+}
+#user-rollover.id-4412452 .meta .username,
+#user-rollover.id-4412452.is-staff .info .role span {
+    color: #049eff;
+}
+#user-rollover .meta.online .status i {
+	 border: 2px solid !important;
+	 -webkit-animation: rainbow 4s infinite;
+    -ms-animation: rainbow 4s infinite;
+    -o-animation: rainbow 4s infinite;
+    animation: rainbow 4s infinite;
+}
+#user-rollover .meta.online .status span {
+    -webkit-animation: rainbow 4s infinite;
+    -ms-animation: rainbow 4s infinite;
+    -o-animation: rainbow 4s infinite;
+    animation: rainbow 4s infinite;
+}
+#user-rollover .meta.subscriber .status span {
+   text-shadow: 0 0 10px #E59900;
+}
+#user-rollover.id-4412452 .info .value {
+    color: #C9AD0B;
+   text-shadow: 0 0 10px #E59900;
+}
+#user-rollover .info .role .icon-chat-host {
+ background: url("http://i.imgur.com/X18QJNc.png") !important;
+}
+/*----end of user rollover----*/
+
+/*Dj miktukas*/
+#dj-button {
+   background-color: rgba(0, 0, 0, 0.35) !important;
+}
+#dj-button
+{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#dj-button.is-quit:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+}
+#dj-button.is-leave:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+}
+#dj-button.is-wait:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+}
+#dj-button.is-locked:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+}
+#dj-button.is-join:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+}
+i.icon.icon-join-waitlist-big,
+i.icon.icon-current-dj-white {
+    background-image: url("https://dl.dropboxusercontent.com/s/e2qat1j9h7svd3f/Join.png") !important;
+    background-position: 1px 0px;
+}
+i.icon.icon-leave-waitlist-big,
+i.icon.icon-leave-booth-big  {
+    background-image: url("https://dl.dropboxusercontent.com/s/r9j3jll4llrbxqt/Leave.png") !important;
+    background-position: 1px 0px;
+}
+
+/*woot miktukai*/
+#woot,
+#grab,
+#meh {
+   background-color: rgba(0, 0, 0, 0.35) !important;
+}
+#vote .crowd-response.disabled .bottom {
+   background: rgba(0, 0, 0, 0.28);
+}
+.bottom,
+#woot.selected .bottom,
+#grab.selected .bottom,
+#meh.selected .bottom {
+    background: 0 0;
+}
+#vote >#woot.crowd-response:hover:not(.disabled) .bottom,
+#vote >#woot.crowd-response.selected:hover:not(.disabled) .top{
+    background: rgba(144, 173, 47, 0.2);
+}
+#woot .bottom {
+    background: rgba(144, 173, 47, 0.5);
+}
+#vote >#grab.crowd-response:hover:not(.disabled) .bottom,
+#vote >#grab.crowd-response.selected:hover:not(.disabled) .top{
+    background: rgba(170, 116, 255, 0.2);
+}
+#grab .bottom {
+    background: rgba(170, 116, 255, 0.5);
+}
+#vote >#meh.crowd-response:hover:not(.disabled) .bottom,
+#vote >#meh.crowd-response.selected:hover:not(.disabled) .top{
+    background: rgba(196, 46, 59, 0.2);
+}
+#meh .bottom {
+    background: rgba(196, 46, 59, 0.5);
+}
+i.icon.icon-woot {
+   background-image: url("https://dl.dropboxusercontent.com/s/6vjqrxy37iu4489/Woot.png") !important;
+   background-position: 1px 0px;
+}
+i.icon.icon-grab {
+   background-image: url("https://dl.dropboxusercontent.com/s/4y0w8wd53it1evi/Grab.png") !important;
+   background-position: 1px 0px;
+}
+i.icon.icon-meh {
+   background-image: url("https://dl.dropboxusercontent.com/s/ek8bl0bg6qvztgu/Meh.png") !important;
+   background-position: 1px 0px;
+}
+i.icon.icon-star-white {
+   background-image: url("https://dl.dropboxusercontent.com/s/aqab9ym4n0dfmj6/Grabselected.png") !important;
+   background-position: 1px 0px;
+}
+#woot .icon.icon-woot-disabled {
+   background-image: url("https://dl.dropboxusercontent.com/s/jyudv2960jwwewk/Wootselected.png") !important;
+   background-position: 1px 0px;
+}
+#grab .icon.icon-grab-disabled {
+    background-image: url("https://dl.dropboxusercontent.com/s/aqab9ym4n0dfmj6/Grabselected.png") !important;
+    background-position: 1px 0px;
+}
+#meh .icon.icon-meh-disabled {
+    background-image: url("https://dl.dropboxusercontent.com/s/w8b6pxsinyswg3n/Mehselected.png") !important;
+    background-position: 1px 0px;
+}
+
+/*animacijos 2*/
+#vote,
+#woot,
+#woot .top,
+#woot .bottom,
+#grab,
+#grab .top,
+#grab .bottom,
+#meh,
+#meh .top,
+#meh .bottom,
+#user-rollover .action{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#user-rollover .actions{
+		-webkit-animation:fadein 1s;
+        -moz-animation:fadein 1s;
+        -ms-animation:fadein 1s;
+        -o-animation:fadein 1s;
+        animation:fadein 1s;
+}
+
+/*editai*/
+#woot-rs {
+    background: rgba(0, 156, 34, 0.35);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.50s;
+}
+#grab-rs {
+    background: rgba(222, 86, 255, 0.35);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.50s;
+}
+#meh-rs {
+    background: rgba(255, 39, 54, 0.35);
+	-webkit-animation: fadein 0.25s;
+    -moz-animation: fadein 0.25s;
+    -ms-animation: fadein 0.25s;
+    -o-animation: fadein 0.25s;
+    animation: fadein 0.50s;
+}
+.icon.icon-plugcubed {
+    background-image: url("https://dl.dropboxusercontent.com/s/5n4q27urt2rqa8h/p3.png") !important;
+}
+#p3-settings{
+	background-color: rgba(0, 0, 0, 0.85) !important;
+}
+#p3-settings-custom-colors .header,
+#p3-settings .header{
+    background-color: rgba(36, 44, 62, 0.46) !important;
+}
+
+/*animatcijos*/
+#footer-user .buttons .button,
+#footer-user .buttons .store.button{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#footer-user .buttons .button:hover {
+    background: rgba(0, 0, 0, 0.31);
+}
+#footer-user .buttons .button.inventory:hover {
+    -webkit-box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, 0.25);
+    box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, 0.25);
+}
+#footer-user .buttons .button.store:hover {
+    background: rgba(0, 181, 230, 0.25);
+}
+
+/*papildomai */
+#footer .bar-button .section .chevron:before,
+#footer .bar-button .section .chevron:after{
+    background: rgba(0, 0, 0, 0.3);
+}
+.chevron{
+	 -webkit-transition:     all 0.3s ease;
+     -moz-transition:        all 0.3s ease;
+     -o-transition:          all 0.3s ease;
+     transition:             all 0.3s ease;
+	 right: 7px;
+}
+#playlist-meta:hover .chevron{
+	 padding: 7px !important;
+	 top: 21px !important;
+}
+
+/*video*/
+#dialog-preview{
+    border-radius: 20px;
+}
+.dialog{
+    background: rgba(14, 13, 13, 0.4);	
+}
+.dialog-body {
+    background: rgba(14, 13, 13, 0.5));
+}
+
+/*animacija*/
+@keyframes rainbow {
+from{
+    color: #30ad2f;
+}
+
+10% {
+    color: #873aff;
+}
+20% {
+    color: #d6202f;
+}
+30% {
+    color: #fbba22;
+}
+40% {
+    color: #35e621;
+}
+50% {
+    color: #2b84f7;
+}
+60% {
+    color: #922bec;
+}
+70% {
+    color: #009cdd;
+}
+80% {
+    color: #ae2ec4;
+}
+90% {
+    color: #f93e4e;
+}
+to {
+    color: #30ad2f;
+}
+}
+@keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-moz-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-webkit-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-ms-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-o-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
 }
