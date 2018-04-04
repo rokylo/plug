@@ -1,3 +1,123 @@
+// CHAT
+
+#chat {
+    background-color: rgba(10, 10, 10, 0.75);
+}
+#chat-input{
+    border-radius: 20px;
+}
+#chat-messages .cm,
+#chat-messages .cm:nth-child(2n+1),
+#chat-messages .message,
+#chat-messages .message:nth-child(2n+1),
+#chat-messages .system,
+#chat-messages .system:nth-child(2n+1) {
+    margin-top: 1px;
+}
+#chat .message,#chat .mention,#chat .skip,#chat .moderation,#chat .emote,#chat .update,#chat .welcome {
+    background-color: rgba(0, 0, 0, 0.40);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.25s;
+}
+#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1) {
+    background-color: rgba(17, 19, 23, 0.40);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.25s;
+}
+#chat .emote {
+    border-left: rgba(174, 69, 189, 1) 3px solid !important;
+    background-color: rgba(76, 93, 119, 0.22) !important;
+}
+#chat {
+    background-color: rgba(10, 10, 10, 0);
+}
+#room .app-right {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#chat-messages .cm:not(.log):hover {
+	transform: translate(5px, -5px);
+	background-color: rgba(0, 20, 61, 0.60);
+}
+#user-lists .list .user,
+#chat-messages .cm{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+
+// LIST
+
+#user-lists .list .user:hover {
+background-color: rgba(0, 77, 255, 0.15);
+transform: translate(5px, -5px);
+width: initial;
+}
+.row:hover {
+    background-color: rgba(0, 77, 255, 0.10);
+    border-left: rgb(0, 77, 255) 4px solid;
+    border-right: rgb(0, 77, 255) 4px solid;
+	border-radius: 10px;
+    width: initial;
+    -webkit-transition: 100ms linear 50ms;
+    transition: 100ms linear 50ms
+}
+.media-list .row.selected {
+background: rgba(0, 77, 255, 0.35);
+border-left: rgb(0, 77, 255) 4px solid;
+border-right: rgb(0, 77, 255) 4px solid;
+border-radius: 10px;
+width: initial;
+-webkit-transition: 100ms linear 50ms;
+transition: 100ms linear 50ms;
+}
+#playlist-menu .menu .row.selected {
+background: rgba(0, 77, 255, 0.35);
+border-left: rgb(0, 77, 255) 4px solid;
+border-radius: 10px;
+border-right: rgb(0, 77, 255) 4px solid;
+width: initial;
+-webkit-transition: 100ms linear 50ms;
+transition: 100ms linear 50ms;
+}
+.media-list .row.selected.actions {
+background: rgba(0, 77, 255, 0.35);
+border-left: rgb(0, 77, 255) 4px solid;
+border-right: rgb(0, 77, 255) 4px solid;
+border-radius: 10px;
+width: initial;
+-webkit-transition: 100ms linear 50ms;
+transition: 100ms linear 50ms;
+}
+.row.playlist-media.now-playing {
+background: rgba(0, 77, 255, 0.75);
+border-left: rgb(0, 77, 255) 4px solid;
+border-right: rgb(0, 77, 255) 4px solid;
+border-radius: 10px;
+width: initial;
+-webkit-transition: 100ms linear 50ms;
+transition: 100ms linear 50ms;
+}
+.media-list .selected .actions,
+.media-list .actions {
+    background: rgba(0, 0, 0, 0.52) !important;
+}
+#user-friends .row:hover {
+	background: rgba(0, 0, 0, .36)!important;
+    border-left: #FFFC21 0px solid;
+    border-right: #FAFF44 0px solid;
+    border-radius: 0px;
+    -webkit-transition: 100ms linear 50ms;
+    transition: 100ms linear 50ms
+}
+
 // TRANSPARENCY
 
 #toast-notifications .notification .right:hover {
@@ -101,4 +221,10 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 }
 #dialog-container.is-preview {
     background: rgba(0, 0, 0, 0.68);
+}
+
+// ROUNDING
+
+.dialog {
+    border-radius: 20px;
 }
