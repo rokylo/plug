@@ -9,15 +9,15 @@
     background-position: center center !important;
     }
     
-    * keinwein *
-    #user-rollover.id-22029396 .badge-box i.bdg,
-.id-22029396 .badge-box i.bdg {
-    background-image: url("https://i.imgur.com/EMAmBs4.gif?1");
-    }
-
     * Lukse:P *
     #user-rollover.id-5485803 .badge-box i.bdg,
 .id-5485803 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/EMAmBs4.gif?1");
+    }
+
+    * keinwein *
+    #user-rollover.id-22029396 .badge-box i.bdg,
+.id-22029396 .badge-box i.bdg {
     background-image: url("https://img00.deviantart.net/e386/i/2004/320/8/a/spongebob_by_wikee.png");
     }
 
