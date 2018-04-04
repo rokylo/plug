@@ -1,2 +1,2 @@
 # rokylo.github.io
-plug css
+This is primarely used for the styling off the keinwein community on plug.dj
