@@ -2,7 +2,7 @@
     "room": "dauzymas",
     "author": "keinwein",
     "icon": "https://i.imgur.com/3fPJxcW.png?1",
-    "css": "https://rokylo.github.io/plug/main.css",
+    "css": "https://rokylo.github.io/main.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
