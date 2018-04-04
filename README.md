@@ -1,2 +1,2 @@
 # rokylo.github.io
-This is primarely used for the styling off the keinwein community on plug.dj
+keinwein community on plug.dj - plug.dj/dauzymas
