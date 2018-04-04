@@ -15,9 +15,9 @@
 #app .app-right .friends,
 #user-lists .group,
 #rcs-menu{
-  text-shadow: 0px 0px 6px black,
-               0px 0px 6px black,
-               0px 0px 6px black !important;
+  text-shadow: 0px 0px 6px purple,
+               0px 0px 6px purple,
+               0px 0px 6px purple !important;
 }   /* Small */
 #app .dark-label,
 #room-host .username,
@@ -28,9 +28,9 @@
 #chat-input-field,
 #list-filter-input,
 #toast-notifications{
-  text-shadow: 0px 0px 3px black,
-               0px 0px 3px black,
-               0px 0px 3px black !important;
+  text-shadow: 0px 0px 3px purple,
+               0px 0px 3px purple,
+               0px 0px 3px purple !important;
 /* Padding fixes */
 } /* Text shadow cutoff */
 #room-name,
@@ -49,4 +49,76 @@
 }
 #footer .icon.icon-next-track{
   margin-left: 7px !Important;
-}  
+} /* Background Width */
+#chat-messages .cm{
+  padding-right: 6px !Important;
+}
+#user-lists .user,
+#user-lists .group,
+#user-lists .unignore,
+#user-lists .unmute,
+#user-lists .unban,
+#user-lists .expires,
+#user-lists .timestamp,
+#user-lists .duration,
+#waitlist .user,
+#app .app-right .friends .row,
+#rcs-menu .group{
+  padding-right: 14px !Important;
+}
+#user-lists .user .icon{
+  margin-right: 14px !Important;
+}
+#room-bar,
+#room-bar .favorite{
+  padding-right: 1px !Important;
+}
+#room .app-right .friends .header,
+#room .app-right .friends .list-header,
+#room .app-right .friends .list,
+#room .app-right .friends .row:first-child,
+#room .app-right .friends .jspContainer,
+#room .app-right .friends,
+#room .app-right .jspTrack{
+  margin-top: 0px !important;
+}
+#room .app-right .jspDrag{
+  padding-bottom: 0px !Important;
+}
+/* Layer adjustment */
+#your-active-playlist{
+  z-index: 1 !important;
+}
+#history-panel{
+  z-index: 20 !important;
+}
+/* Miscellaneous additions */
+  /* Fix button hover inconsistiency */
+#footer .button:hover{
+  box-shadow: inset 1px 0px 0px 0px rgb(10, 10, 10) !Important;
+}
+#footer .store:hover{
+  background-image: linear-gradient(rgba(0, 181, 230, 0.50) 0px, rgba(0, 156, 221, 0.50) 100%) !important;;
+}
+#footer .thumb{
+  border: 2px solid rgb(137, 190, 108) !important;
+}
+#footer .info{
+  box-shadow: inset 1px 1px 0px 0px rgb(10, 10, 10) !Important;
+}
+  /* Shop button colour */
+/* Disappear */
+#footer .store:hover,
+#footer .background,
+#room .app-right,
+#chat-messages .badge-box,
+#chat-messages .system{
+  background-color: transparent !important;
+}
+#toast-notifications *,
+.app-right{
+  box-shadow: none !Important;
+}
+#rcs-menu .group{
+  background-image: none !Important;
+}
