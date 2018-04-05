@@ -63,3 +63,33 @@
 #user-rollover.id-22029396 .meta{
 		height: 170px !important;
 }
+
+/* Lukse:P */
+
+#chat [data-cid^='22029396-'] .un  /*keinwein*/
+{
+    top: -2px !important;
+    position: relative;
+}
+#chat [data-cid^='22029396-'] .rcs-user-info {
+    position: relative !important;
+    top: -2px !important;
+}
+
+/* Lukse:P gaidzio icon */
+
+#chat [data-cid^='5485803-'] .un:before { /*badge next to name in chat*/
+		content: url("https://i.imgur.com/WeCOXMs.png"); 
+		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-5485803 .meta:before { /*user rollover badge image*/
+    		content: url("https://i.imgur.com/WeCOXMs.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-5485803 .meta:after { /*user rollover badge info*/
+    		content: 'gaidys';
+    		color: #FF1A1A; position: absolute; top: 118px; left: 130px;
+}
+#user-rollover.id-5485803 .meta{
+		height: 170px !important;
+}
