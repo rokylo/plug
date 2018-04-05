@@ -20,3 +20,40 @@
 .id-5485803 .badge-box i.bdg {
     background-image: url("https://i.imgur.com/sDg8fnC.gif?1");
 }
+
+// CUSTOM DUTIES
+
+#user-rollover .meta{
+   	min-height: 126px;
+}
+#user-rollover .meta.subscriber {
+	min-height: 146px;
+}
+
+/* keinwein */
+
+#chat [data-cid^='22029396-'] .un  /*keinwein*/
+{
+    top: -2px !important;
+    position: relative;
+}
+#chat [data-cid^='22029396-'] .rcs-user-info {
+    position: relative !important;
+    top: -2px !important;
+}
+/* keinwein dev icon */
+#chat [data-cid^='22029396-'] .un:before { /*supporter badge next to name in chat*/
+		content: url("https://i.imgur.com/IIWxpAT.png"); 
+		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
+}
+#user-rollover.id-22029396 .meta:before { /*user rollover supporter image*/
+    		content: url("https://i.imgur.com/IIWxpAT.png");	
+		top: 120px;	left: 109px; position: absolute;
+}
+#user-rollover.id-22029396 .meta:after { /*user rollover supporter info*/
+    		content: 'Dauzymas Developer';
+    		color: #808691; position: absolute; top: 118px; left: 130px;
+}
+#user-rollover.id-22029396 .meta{
+		height: 170px !important;
+}
