@@ -68,16 +68,8 @@
 
 /* keinwein */
 
-@keyframes rainbow {
-    0% {  filter: hue-rotate(0deg);  }
-  100% {  filter: hue-rotate(360deg);  }
-}
-[data-cid^="22029396-"] .un:hover {
-    animation-name: rainbow;
-    animation-delay: 0;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+[data-cid^="22029396-"] .un {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
 }
