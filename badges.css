@@ -49,16 +49,16 @@
 /* keinwein dev icon */
 
 #chat [data-cid^='22029396-'] .un:before { /*badge next to name in chat*/
-		content: url("https://i.imgur.com/IIWxpAT.png"); 
+		content: url("https://i.imgur.com/4B6oDVO.png"); 
 		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
 #user-rollover.id-22029396 .meta:before { /*user rollover badge image*/
-    		content: url("https://i.imgur.com/IIWxpAT.png");	
+    		content: url("https://i.imgur.com/4B6oDVO.png");	
 		top: 120px;	left: 109px; position: absolute;
 }
 #user-rollover.id-22029396 .meta:after { /*user rollover badge info*/
     		content: 'Dauzymas Developer';
-    		color: #00EAFF; position: absolute; top: 118px; left: 130px;
+    		color: #FF8A00; position: absolute; top: 118px; left: 130px;
 }
 #user-rollover.id-22029396 .meta{
 		height: 170px !important;
