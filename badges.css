@@ -1,6 +1,6 @@
 // CUSTOM BADGES //
 
-// GENERAL
+/* GENERAL */
 #user-rollover .info .badge-box,
 #chat-messages .badge-box {
     background: none !important;
@@ -9,19 +9,23 @@
     background-position: center center !important;
 }
 
-* keinwein *
+/* keinwein */
+
 #user-rollover.id-22029396 .badge-box i.bdg,
 .id-22029396 .badge-box i.bdg {
     background-image: url("https://i.imgur.com/EMAmBs4.gif?1");
 }
 
-* Lukse:P *
+/* Lukse:P */
+
 #user-rollover.id-5485803 .badge-box i.bdg,
 .id-5485803 .badge-box i.bdg {
     background-image: url("https://i.imgur.com/sDg8fnC.gif?1");
 }
 
-// CUSTOM DUTIES
+// CUSTOM DUTIES //
+
+/* GENERAL */
 
 #user-rollover .meta{
    	min-height: 126px;
@@ -41,16 +45,18 @@
     position: relative !important;
     top: -2px !important;
 }
+
 /* keinwein dev icon */
-#chat [data-cid^='22029396-'] .un:before { /*supporter badge next to name in chat*/
+
+#chat [data-cid^='22029396-'] .un:before { /*badge next to name in chat*/
 		content: url("https://i.imgur.com/IIWxpAT.png"); 
 		top: 4px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
 }
-#user-rollover.id-22029396 .meta:before { /*user rollover supporter image*/
+#user-rollover.id-22029396 .meta:before { /*user rollover badge image*/
     		content: url("https://i.imgur.com/IIWxpAT.png");	
 		top: 120px;	left: 109px; position: absolute;
 }
-#user-rollover.id-22029396 .meta:after { /*user rollover supporter info*/
+#user-rollover.id-22029396 .meta:after { /*user rollover badge info*/
     		content: 'Dauzymas Developer';
     		color: #00EAFF; position: absolute; top: 118px; left: 130px;
 }
