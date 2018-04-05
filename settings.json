@@ -1,45 +1,45 @@
 {
-    "room": "dauzymas",
-    "author": "keinwein",
-    "icon": "https://i.imgur.com/zjBNOA3.png",
-    "css": "https://rokylo.github.io/main.css",
+    "room":                     "dauzymas",
+    "author":                   "keinwein",
+    "icon":                     "https://i.imgur.com/zjBNOA3.png",
+    "css":                      "https://rokylo.github.io/main.css",
     "rules": {
-        "allowAutorespond": true,
-        "allowAutowoot": true,
-        "allowAutojoin": true,
-        "allowAutograb": true,
-        "allowSmartVote": true,
-        "allowEmotes": true,
-        "allowShowingMehs": true,
-        "forceSmartVote": false
+        "allowAutorespond":     true,
+        "allowAutowoot":        true,
+        "allowAutojoin":        true,
+        "allowAutograb":        true,
+        "allowSmartVote":       true,
+        "allowEmotes":          true,
+        "allowShowingMehs":     true,
+        "forceSmartVote":       false
     },
     "ccc": {
         "admin":                null,
         "ambassador":           null,
-        "host":                 "#FFFF00",
-        "cohost":               "#FFFF00",
-        "manager":              "#00FF00",
-        "bouncer":              "#FF0000",
-        "rdj":                  "#5DB4FF",
+        "host":                 "#AC76FF",
+        "cohost":               "#AC76FF",
+        "manager":              "#AC76FF",
+        "bouncer":              "#AC76FF",
+        "rdj":                  "#AC76FF",
         "subscriber":           null,
         "silversubscriber":     null,
         "friend":               null,
-        "user":                 null
+        "user":                 null,
     },
     "images": {
         "background":           "https://i.imgur.com/3TtWBQ4.gif",
         "playback":             null,
-        "admin":                "https://i.imgur.com/nh3qePU.png",
-        "ambassador":           "https://i.imgur.com/k1OsnD9.png",
-        "host":                 "https://i.imgur.com/BYW9oVO.png",
-        "cohost":               "https://i.imgur.com/BYW9oVO.png",
-        "manager":              "https://i.imgur.com/YgRjb8A.png",
-        "bouncer":              "https://i.imgur.com/bkzpe79.png",
-        "rdj":                  "https://i.imgur.com/N0mTTGT.png",
-        "subscriber":           "https://i.imgur.com/7T70XNX.png",
-        "silversubscriber":     "https://i.imgur.com/yoQey8G.png"
+        "admin":                "https://i.imgur.com/TmRhxmU.png",
+        "ambassador":           "https://i.imgur.com/CRTlhYZ.png",
+        "host":                 "https://i.imgur.com/4mbwnpA.png",
+        "cohost":               "https://i.imgur.com/4mbwnpA.png",
+        "manager":              "https://i.imgur.com/le4SqzI.png",
+        "bouncer":              "https://i.imgur.com/dz5ypNr.png",
+        "rdj":                  "https://i.imgur.com/70CRltY.png",
+        "subscriber":           "https://i.imgur.com/tbdxnG7.png",
+        "silversubscriber":     "https://i.imgur.com/OuNCUqn.png"
     },
     "emotes": {
-    	"winkielaugh": "https://i.imgur.com/zjBNOA3.png"
+        "emotes-name": null
     }
 }
