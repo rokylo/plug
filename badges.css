@@ -66,12 +66,12 @@
 
 /* Lukse:P */
 
-#chat [data-cid^='22029396-'] .un  /*keinwein*/
+#chat [data-cid^='5485803-'] .un  /*keinwein*/
 {
     top: -2px !important;
     position: relative;
 }
-#chat [data-cid^='22029396-'] .rcs-user-info {
+#chat [data-cid^='5485803-'] .rcs-user-info {
     position: relative !important;
     top: -2px !important;
 }
