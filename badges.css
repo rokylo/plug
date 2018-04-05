@@ -68,8 +68,7 @@
 
 /* keinwein */
 
-[data-cid^="22029396-"] .un {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+#user-rollover.id-22029396 .username:hover,
+#chat [data-cid^="22029396-"] span.un.clickable:hover {
+    animation: rainbow 10s infinite;
 }
