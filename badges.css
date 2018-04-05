@@ -63,3 +63,21 @@
 #user-rollover.id-22029396 .meta{
 		height: 170px !important;
 }
+
+// CUSTOM NICKNAME COLOR
+
+/* keinwein */
+
+@keyframes rainbow {
+    0% {  filter: hue-rotate(0deg);  }
+  100% {  filter: hue-rotate(360deg);  }
+}
+[data-cid^="22029396-"] .un:hover {
+    animation-name: rainbow;
+    animation-delay: 0;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
