@@ -66,6 +66,8 @@
 #waitlist .list .user[data-uid="22029396"] .meta.is-staff .name .icon-chat-host,
 #user-rollover.id-22029396 .info .role i.icon-chat-host,
 #user-lists .list.room .user.id-22029396 .icon-chat-host,
+    background: url("https://i.imgur.com/IIWxpAT.png") no-repeat !important;
+}
 
 /* killer0wave */
 .id-27677457 .msg .from i.icon-chat-dj,
