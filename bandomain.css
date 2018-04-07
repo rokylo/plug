@@ -304,34 +304,6 @@
   -o-box-shadow: inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
   box-shadow: inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
 }
-/************/
-/*SCROLL BAR*/
-/************/
-
-/* Entire Bar */
-#chat-messages::-webkit-scrollbar {
-  width: 12px !important;
-}
- 
-/* Track */
-#chat-messages::-webkit-scrollbar-track {
-  -webkit-border-radius: 3px !important;
-  background-color: rgba(150, 150, 150, 0.2) !important;
-}
-/* Track Hover */
-#chat-messages::-webkit-scrollbar-track:hover {
-  background-color: rgba(150, 150, 150, 0.2) !important;
-}
- 
-/* Handle */
-#chat-messages::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 3px !important;
-  background-color: rgba(150, 150, 150, 1) !important;
-}
-/* Handle Hover */
-#chat-messages::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(84, 123, 160, 1) !important;
-}
 
 /********/
 /*HEADER*/
@@ -563,15 +535,6 @@
   opacity: 1;
 }
 
-/* /me Messages / Emotes */
-#chat .emote .text {
-  color: rgba(125, 96, 206, 1) !important;
-  font-weight: bold !important;
-}
-
-#chat .emote .msg {
-  background: rgba(45, 27, 97, 0.1) !important;
-}
 /* Icon Hover in User List */
 #user-lists .header .button.room i,
 #user-lists .header .button.staff,
@@ -702,6 +665,12 @@
   -webkit-transform: rotate(360deg) !important;
   -o-transform            rotate(360deg) !important;
         transform: rotate(360deg) !important;
+}
+
+/* Footer Bar */
+#footer {
+  background: rgb(3, 0, 7) !important;
+        /*background:             linear-gradient(0deg,#13002f 0,#002149 169%,#111317 100%) !important;*/;
 }
 
 /* Footer Buttons Static */
@@ -1718,28 +1687,35 @@
 /*******************/
 /*BOT Customisation*/
 /*******************/
+
 /**Gerdutė**/
 #chat-messages .id-3579906 .badge-box i.bdg {
   background-image: url('http://image.fg-a.com/Aniheart61a.gif');
   background-size: cover;
 }
-/**power**/
+/**power-of-mad**/
 #chat-messages .id-3525229 .badge-box i.bdg {
   background-image: url('https://i.imgur.com/AqDwaIP.png');
   background-size: cover;
 }
-/**-heineken**/
+/**-heineken**//
 #chat-messages .id-4206645 .badge-box i.bdg {
   background-image: url('https://i.imgur.com/xNICQrI.jpg');
   background-size: cover;
 }
-/**Randomas**/
+/**Randomas**//
 #chat-messages .id-6110426 .badge-box i.bdg {
   background-image: url('http://www.gifmania.us/Animated-Gifs-Technology/Free-Animations-Radar/Small-Army-Radar-53093.gif');
   background-size: cover;
 }
+/**Filbertas**//
+#chat-messages .id-13474152 .badge-box i.bdg {
+  background-image: url('https://i.imgur.com/UWOgCcv.png');
+  background-size: cover;
+}
 
-#chat-messages .id-12386384 {
+
+#chat-messages .id-3525229 {
        /* background: linear-gradient(85deg,#1F1232 0,#111317 33%,#111317 100%) !important;*/
   background: rgba(34, 23, 54, 0.33) !important;
   border-left: 3px solid #8230FF;
@@ -1854,7 +1830,7 @@
 
 .cm.role-dj .from .un, .role-dj .name
 {
-        color: #6669ff !important;
+        color: #547bc9 !important;
 }
 
 .icon-chat-dj 
@@ -1864,7 +1840,7 @@
 
 .cm.role-bouncer .from .un, .role-bouncer .name
 {
-        color: #c1272d !important;
+        color: #626cbc !important;
 }
 
 .icon-chat-bouncer 
@@ -1874,7 +1850,7 @@
 
 .cm.role-manager .from .un, .role-manager .name
 {
-        color: #006a44 !important;
+        color: #7854a9 !important;
 }
 
 .icon-chat-manager 
@@ -1884,7 +1860,7 @@
 
 .cm.role-cohost .from .un, .role-cohost .name, .cm.role-host .from .un, .role-host .name
 {
-        color: #fdb913 !important;
+        color: #87449c !important;
 }
 
 .icon-chat-cohost 
